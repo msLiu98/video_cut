@@ -1,0 +1,8 @@
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_0.mp4'
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_1.mp4'
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_2.mp4'
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_3.mp4'
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_4.mp4'
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_5.mp4'
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_6.mp4'
+file 'F:/Projects/toolkit/video_cut/out/pieces/test_7.mp4'
