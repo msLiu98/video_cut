@@ -27,13 +27,15 @@ def concat_video(filename_list):
 
 def main():
     filename = 'static/video/demo1.mp4'
-    length = 12
-    length_drop = 10
+    length = 16
+    length_drop = 12
+    start = 1000
 
     duration = math.floor(float(get_video_duration(filename)))
     part = math.ceil(duration / length)
+    part = 30
     files = []
-    for i in range(0, part*length, length):
+    for i in range(start, start + part*length, length):
         cut_video(filename, f'out/pieces/test_{i//length}.mp4', i, length-length_drop)
         files.append(f"file 'F:/Projects/toolkit/video_cut/out/pieces/test_{i//length}.mp4'")
     #
